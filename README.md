@@ -92,7 +92,7 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
      <img width="529" alt="Screen Shot 2021-04-08 at 1 59 22 PM" src="https://user-images.githubusercontent.com/33885541/114095735-a103b300-9872-11eb-9860-3bca21a5f1d9.png">
 
 
-   ###  2 - Method 
+   ###  2 - METHODS 
          Method is type of request sent to the server.
          Five Types of methods:
             1. GET
@@ -112,9 +112,48 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
      
  <strong>a GET request performs a "READ" operation.  GET is the DEFAULT request method.</strong>
     
- <strong>POST METHOD:</strong> used to create a new resource on a server.  The server creates a new entry in the database adn tells you whether the creation is successful.
+ <strong>POST METHOD:</strong> used to create a new resource on a server.  The server creates a new entry in the database and tells you whether the creation is successful.
     
 <strong>a POST request performs a "CREATE" operation</strong>
      
-                 
-                 
+<strong>PUT AND PATCH METHOD:</strong> used to update a new resource on a server.  If you perform a  PUT or PATCH requst, the server updates an enetry in the database and tells you whether the update is successful.  
+    
+<strong>a PUT OR PATCH request performs an "UPDATE" operation</strong>                 
+<strong>DELETE:</strong> used to delete a resource from a server.  If you perform a  PUT or PATCH requst, the server updates an enetry in the database and tells you whether the update is successful.  
+    
+<strong>a DELETE request performs a "DELETE" operation</strong>                                  
+
+
+        The API lets you know which requst method to use each reqeust.  For example, to get a list of a user's repositories, you need a GET request:
+        GET /users/:username/repos
+        
+        To create a new Github repository, you need a POST request:
+        POST /user/repos
+        
+        
+       How to set request method in cURL?
+          Write -x or --request followed by the request method.
+          example: curl -X POST https://api.github.com/user/repos
+          
+          
+   ###  3 - HEADERS 
+         - Headers are property-value pairs that are separated by a colon.
+         - example: "Content-Type: application/json"
+
+         - Headers are used to provide info to both client and server.  Authentication, info about the body conent, etc.  
+         - More info here: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+
+        - Can send HTTP headers with curl throgugh the -H or --header options
+        - example: curl -H "Content-Type: application/json" https://api.github.com
+        - Note: content-type header is not a requirement for Github's API tow ork, it's just an example of how to use a header with cURL)
+        
+        - To view headers you've sent:
+        - use the -v or --verbose option as yo usend the request:
+        - example: curl -H "Content-Type: application/json" https://api.github.com -v
+
+<img width="553" alt="Screen Shot 2021-04-08 at 2 20 53 PM" src="https://user-images.githubusercontent.com/33885541/114098015-a282aa80-9875-11eb-96e4-49c77b31b1c6.png">
+        Here, * refers to additional information provided by cURL. > refers to request headers, and < refers to the response headers.
+        
+        
+   ###  3 - DATA or BODY
+        
