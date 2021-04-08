@@ -107,13 +107,14 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
             3. UPDATE
             4. DELETE
             
-     <strong>GET METHOD:</strong> used to get a resource from a server.  GET request tells the server to look for the data you requested and sends it back to you.  
+   
+ <strong>GET METHOD:</strong> used to get a resource from a server.  GET request tells the server to look for the data you requested and sends it back to you.  
      
-    <strong>a GET request performs a "READ" operation.  GET is the DEFAULT request method.</strong>
+ <strong>a GET request performs a "READ" operation.  GET is the DEFAULT request method.</strong>
     
-    <strong>POST METHOD:</strong> used to create a new resource on a server.  The server creates a new entry in the database adn tells you whether the creation is successful.
+ <strong>POST METHOD:</strong> used to create a new resource on a server.  The server creates a new entry in the database adn tells you whether the creation is successful.
     
-    <strong>a POST request performs a "CREATE" operation</strong>
+<strong>a POST request performs a "CREATE" operation</strong>
      
                  
                  
