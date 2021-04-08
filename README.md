@@ -92,8 +92,28 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
      <img width="529" alt="Screen Shot 2021-04-08 at 1 59 22 PM" src="https://user-images.githubusercontent.com/33885541/114095735-a103b300-9872-11eb-9860-3bca21a5f1d9.png">
 
 
-## The Method: 
+   ###  2 - Method 
+         Method is type of request sent to the server.
+         Five Types of methods:
+            1. GET
+            2. POST
+            3. PUT
+            4. PATCH
+            5. DELETE
+
+          Methods used to perform four possible actions:
+            1. CREATE
+            2. READ
+            3. UPDATE
+            4. DELETE
+            
+     <strong>GET METHOD:</strong> used to get a resource from a server.  GET request tells the server to look for the data you requested and sends it back to you.  
      
+    <strong>a GET request performs a "READ" operation.  GET is the DEFAULT request method.</strong>
+    
+    <strong>POST METHOD:</strong> used to create a new resource on a server.  The server creates a new entry in the database adn tells you whether the creation is successful.
+    
+    <strong>a POST request performs a "CREATE" operation</strong>
      
                  
                  
