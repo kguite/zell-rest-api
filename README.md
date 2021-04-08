@@ -1,17 +1,17 @@
 # zell-rest-api
 
 ## Quick notes from Zell's article from Smashing Magazine:
-## Understanding and Using REST API's
+ Understanding and Using REST API's
 https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
 
 
 
 
-### API stands for application programming interface
+### API: Application Programming Interface
   it is a set of rules that allow programs to talk to eachother (or as Leon says, a menu)
   Developer creates the API on the server, and allows the client to talk to it (REMEMBER MVC)
   
-### REST - Representational state Transfer
+### REST: Representational State Transfer
   determines the look of the API. 
   set of rules developers follow when creating API
   One rule states you should be able to get a piece of data (a RESOURCE) when you link to a specific URL
@@ -56,4 +56,4 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
            To get a list of repos that Zell pushed to recently, can set "sort" to "push", like this: https://api.github.com/users/zellwk/repos?sort=pushed
 
            
-              
+    - Testing Endpoints with Curl:
