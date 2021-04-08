@@ -51,7 +51,7 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
                
                
                
-               <img width="513" alt="Screen Shot 2021-04-08 at 12 18 07 PM" src="https://user-images.githubusercontent.com/33885541/114083947-7b6fad00-9864-11eb-9c20-d70a0438c258.png">
+ <img width="513" alt="Screen Shot 2021-04-08 at 12 18 07 PM" src="https://user-images.githubusercontent.com/33885541/114083947-7b6fad00-9864-11eb-9c20-d70a0438c258.png">
 
            To get a list of repos that Zell pushed to recently, can set "sort" to "push", like this: https://api.github.com/users/zellwk/repos?sort=pushed
 
@@ -69,7 +69,7 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
           example: curl https://api.github.com
           response should look like this:
           
-          <img width="539" alt="Screen Shot 2021-04-08 at 1 44 39 PM" src="https://user-images.githubusercontent.com/33885541/114093947-921c0100-9870-11eb-9688-fb99ee387dea.png">
+ <img width="539" alt="Screen Shot 2021-04-08 at 1 44 39 PM" src="https://user-images.githubusercontent.com/33885541/114093947-921c0100-9870-11eb-9688-fb99ee387dea.png">
 
 
           To get a list of a user's repositories, modify the endpoint:
@@ -89,7 +89,7 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
             - JSON looks like Javascript Object.
             - JSON properties AND values must be wrapped with DOUBLE quotation marks (and don't forget the commas)
 
-     <img width="529" alt="Screen Shot 2021-04-08 at 1 59 22 PM" src="https://user-images.githubusercontent.com/33885541/114095735-a103b300-9872-11eb-9860-3bca21a5f1d9.png">
+  <img width="529" alt="Screen Shot 2021-04-08 at 1 59 22 PM" src="https://user-images.githubusercontent.com/33885541/114095735-a103b300-9872-11eb-9860-3bca21a5f1d9.png">
 
 
    ###  2 - METHODS 
