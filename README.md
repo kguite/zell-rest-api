@@ -57,3 +57,43 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
 
            
     - Testing Endpoints with Curl:
+            Requests can be made with any programming language
+            JavaScript uses methods like the FetchAPI and jQuery's Ajax Method
+            
+    - cURL is a command line utility.
+           API documentations normally written with reference to cURL
+           check cURL is installed with curl --version (mine is 7.64.1)
+           
+    - To use cURL:
+          Type curl followed by the endpoint you're requesting for.
+          example: curl https://api.github.com
+          response should look like this:
+          
+          <img width="539" alt="Screen Shot 2021-04-08 at 1 44 39 PM" src="https://user-images.githubusercontent.com/33885541/114093947-921c0100-9870-11eb-9688-fb99ee387dea.png">
+
+
+          To get a list of a user's repositories, modify the endpoint:
+            example: curl https://api.github.com/users/zellwk/repos
+          
+          
+          To include query parameters with cURL:
+              Make sure to prepend a / BEFORE the ? and = characters.
+                 Because ? and = are special characters in command line. need to                    use / before them for command line to interpret them as normal                      characters.
+                 Example: curl https://api.github.com/users/zellwk/repos\?sort\=pushed
+           
+  
+  
+  ### JSON: JavaScript Object Notation
+            - a common format for sending and requesting data through a REST API.
+            - the repsonse Github sends back is formatted as JSON
+            - JSON looks like Javascript Object.
+            - JSON properties AND values must be wrapped with DOUBLE quotation marks (and don't forget the commas)
+
+     <img width="529" alt="Screen Shot 2021-04-08 at 1 59 22 PM" src="https://user-images.githubusercontent.com/33885541/114095735-a103b300-9872-11eb-9860-3bca21a5f1d9.png">
+
+
+## The Method: 
+     
+     
+                 
+                 
