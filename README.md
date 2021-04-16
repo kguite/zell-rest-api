@@ -124,7 +124,7 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
 <strong>a DELETE request performs a "DELETE" operation</strong>                                  
 
 
-        The API lets you know which requst method to use each reqeust.  For example, to get a list of a user's repositories, you need a GET request:
+        The API lets you know which request method to use each request.  For example, to get a list of a user's repositories, you need a GET request:
         GET /users/:username/repos
         
         To create a new Github repository, you need a POST request:
