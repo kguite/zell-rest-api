@@ -155,5 +155,5 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
         Here, * refers to additional information provided by cURL. > refers to request headers, and < refers to the response headers.
         
         
-   ###  3 - DATA or BODY
+   ###  3 - DATA or BODY:
         
