@@ -27,7 +27,7 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
           4 - Data (or body)
           
         ###  1 - ENDPOINT (or route) 
-          - the URL you request for. looks like: root-endpoint/?
+          - the URL you request for. it looks like: root-endpoint/?
               ROOT (not to be confused with route) endpoint is starting point of API we are requesting                from. (ex: https://api.github.com or https://api.twitter.com
               PATH determines resource we're requesting for. (Answering machine metaphor - 1 for service, 2 for another, etc)
               
