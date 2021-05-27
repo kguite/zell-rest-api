@@ -15,7 +15,7 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
   determines the look of the API. 
   set of rules developers follow when creating API
   One rule states you should be able to get a piece of data (a RESOURCE) when you link to a specific URL
-  each URL is called a REQUEST  
+  each URL is a REQUEST  
   data sent back is RESPONSE
   
 
