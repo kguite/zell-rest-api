@@ -34,7 +34,7 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
           PATHS can be accessed just like linking parts of websites.  Example: www.smashingmagazine.com/tag/javascript
           www.smashingmagazine.com/ is the root-endpoint and /tag/javascript is the path
           
-          Which paths are available? read API documentation.
+          Which paths available? read API documentation.
           Github example: the docs say to get a list of repositories by a certain user, use /users/:username/repos
           
           COLONS: any : on a pth denotes a variable. REPLACE these with actual values when you send your request (example above, change username to the actual one you're searching for).
