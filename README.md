@@ -93,7 +93,7 @@ https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
 
 
    ###  2 - METHODS 
-         Method is type of request sent to the server.
+         Method is a type of request sent to the server.
          Five Types of methods:
             1. GET
             2. POST
