@@ -1,7 +1,10 @@
 # zell-rest-api
 
 ## Quick notes from Zell's article from Smashing Magazine:
- Understanding and Using REST API's
+ Understanding and 
+ 
+ 
+Using REST API's
 https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/
 
 
